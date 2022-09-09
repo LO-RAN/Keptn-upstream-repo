@@ -130,6 +130,12 @@ objectives:
             - <=1000
       weight: 1
       key_sli: true
+    - sli: svc_rt_p95
+      displayName: ""
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
 total_score:
     pass: 85%
     warning: 80%
