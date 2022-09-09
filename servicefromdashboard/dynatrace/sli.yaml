@@ -10,5 +10,5 @@ indicators:
     non_db_calls: entitySelector=type(SERVICE),tag("CloudAutomation EasyTravel")&metricSelector=builtin:service.nonDbChildCallCount:splitBy():value:names
     svc_rt_p50: entitySelector=type(SERVICE),tag("CloudAutomation EasyTravel")&metricSelector=builtin:service.response.time:splitBy():percentile(50.000000):names
     svc_rt_p90: entitySelector=type(SERVICE),tag("CloudAutomation EasyTravel")&metricSelector=builtin:service.response.time:splitBy():percentile(90.000000):names
-    svc_rt_p95: entitySelector=type(SERVICE),tag("CloudAutomation EasyTravel")&metricSelector=builtin:service.response.time:splitBy():percentile(95.000000):names
+    svc_rt_p95: ""
     throughput_svc: entitySelector=type(SERVICE),entityId("SERVICE-83EAFA44D6C83E3E")&metricSelector=builtin:service.requestCount.total:splitBy():value:names
